@@ -24,19 +24,19 @@ git clone xxx_project
 gitbook init xxx_project
 ```
 
-进入项目：
+***进入项目***
 
 ```bash
 cd xxx_project
 ```
 
-初始化GitBook属性定义
+***初始化GitBook属性定义(可选)***
 
 ```bash
 vim book.json
 ```
 
-进入项目，执行构建：
+***进入项目，执行构建***
 
 ```bash
 rm -rf docs && gitbook build . docs
