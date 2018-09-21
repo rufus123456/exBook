@@ -1,42 +1,42 @@
-# gitbook ¹¹½¨·½·¨
+# gitbook æ„å»ºæ–¹æ³•
 
-**°²×° Node.js ºÍ npm**
+**å®‰è£… Node.js å’Œ npm**
 
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-**°²×° GitBook ÃüÁîĞĞ¹¤¾ß**
+**å®‰è£… GitBook å‘½ä»¤è¡Œå·¥å…·**
 
 ```bash
 npm install gitbook-cli -g
 ```
 
-**ÏÂÔØÏîÄ¿**
+**ä¸‹è½½é¡¹ç›®**
 
 ```bash
 git clone xxx_project
 ```
 
-**¹¹½¨ GitBook**
+**æ„å»º GitBook**
 
-***³õÊ¼»¯ÏîÄ¿(¿ÉÑ¡)***
+***åˆå§‹åŒ–é¡¹ç›®(å¯é€‰)***
 
 ```bash
 gitbook init xxx_project
 ```
 
-½øÈëÏîÄ¿£º
+è¿›å…¥é¡¹ç›®ï¼š
 
 ```bash
 cd xxx_project
 ```
 
-³õÊ¼»¯GitBookÊôĞÔ¶¨Òå
+åˆå§‹åŒ–GitBookå±æ€§å®šä¹‰
 
 ```bash
 vim book.json
 ```
 
-½øÈëÏîÄ¿£¬Ö´ĞĞ¹¹½¨£º
+è¿›å…¥é¡¹ç›®ï¼Œæ‰§è¡Œæ„å»ºï¼š
 
 ```bash
 rm -rf docs && gitbook build . docs
